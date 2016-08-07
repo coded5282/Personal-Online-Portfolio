@@ -1,0 +1,18 @@
+"use strict";
+var projects_component_1 = require("./projects.component");
+var router_1 = require("@angular/router");
+var routes = [
+    {
+        path: 'projects',
+        component: projects_component_1.ProjectsComponent
+    },
+    {
+        path: '',
+        redirectTo: '/projects',
+    }
+];
+exports.APP_ROUTER_PROVIDERS = [
+    router_1.provideRouter(routes)
+];
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5yb3V0ZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUVBLG1DQUFnQyxzQkFBc0IsQ0FBQyxDQUFBO0FBRXZELHVCQUEyQyxpQkFBaUIsQ0FBQyxDQUFBO0FBRTdELElBQU0sTUFBTSxHQUFpQjtJQUMzQjtRQUNFLElBQUksRUFBRSxVQUFVO1FBQ2hCLFNBQVMsRUFBRSxzQ0FBaUI7S0FDN0I7SUFDRDtRQUNFLElBQUksRUFBRSxFQUFFO1FBQ1IsVUFBVSxFQUFFLFdBQVc7S0FDeEI7Q0FDRixDQUFDO0FBRVcsNEJBQW9CLEdBQUc7SUFDbEMsc0JBQWEsQ0FBQyxNQUFNLENBQUM7Q0FDdEIsQ0FBQyIsImZpbGUiOiJhcHAucm91dGVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUk9VVEVSX0RJUkVDVElWRVN9IGZyb20gXCJAYW5ndWxhci9yb3V0ZXJcIjsgXG5cbmltcG9ydCB7UHJvamVjdHNDb21wb25lbnR9IGZyb20gXCIuL3Byb2plY3RzLmNvbXBvbmVudFwiOyBcblxuaW1wb3J0IHtwcm92aWRlUm91dGVyLCBSb3V0ZXJDb25maWcgfSBmcm9tIFwiQGFuZ3VsYXIvcm91dGVyXCI7IFxuXG5jb25zdCByb3V0ZXM6IFJvdXRlckNvbmZpZyA9IFtcbiAge1xuICAgIHBhdGg6ICdwcm9qZWN0cycsXG4gICAgY29tcG9uZW50OiBQcm9qZWN0c0NvbXBvbmVudFxuICB9LFxuICB7XG4gICAgcGF0aDogJycsXG4gICAgcmVkaXJlY3RUbzogJy9wcm9qZWN0cycsXG4gIH1cbl07XG5cbmV4cG9ydCBjb25zdCBBUFBfUk9VVEVSX1BST1ZJREVSUyA9IFtcbiAgcHJvdmlkZVJvdXRlcihyb3V0ZXMpXG5dOyJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

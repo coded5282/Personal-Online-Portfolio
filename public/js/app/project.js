@@ -1,0 +1,15 @@
+"use strict";
+var Project = (function () {
+    function Project(projectId, name, description, technologies, github, image) {
+        this.projectId = projectId;
+        this.name = name;
+        this.description = description;
+        this.technologies = technologies;
+        this.github = github;
+        this.image = image;
+    }
+    return Project;
+}());
+exports.Project = Project;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBO0lBUUksaUJBQWEsU0FBaUIsRUFBRSxJQUFZLEVBQUUsV0FBbUIsRUFBRSxZQUFvQixFQUFFLE1BQWMsRUFBRSxLQUFhO1FBQ2xILElBQUksQ0FBQyxTQUFTLEdBQUcsU0FBUyxDQUFDO1FBQzNCLElBQUksQ0FBQyxJQUFJLEdBQUcsSUFBSSxDQUFDO1FBQ2pCLElBQUksQ0FBQyxXQUFXLEdBQUcsV0FBVyxDQUFDO1FBQy9CLElBQUksQ0FBQyxZQUFZLEdBQUcsWUFBWSxDQUFDO1FBQ2pDLElBQUksQ0FBQyxNQUFNLEdBQUcsTUFBTSxDQUFDO1FBQ3JCLElBQUksQ0FBQyxLQUFLLEdBQUcsS0FBSyxDQUFDO0lBQ3ZCLENBQUM7SUFDTCxjQUFDO0FBQUQsQ0FoQkEsQUFnQkMsSUFBQTtBQWhCWSxlQUFPLFVBZ0JuQixDQUFBIiwiZmlsZSI6InByb2plY3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgUHJvamVjdCB7XG4gICAgcHJvamVjdElkOiBTdHJpbmc7IFxuICAgIG5hbWU6IFN0cmluZztcbiAgICBkZXNjcmlwdGlvbjogU3RyaW5nO1xuICAgIHRlY2hub2xvZ2llczogU3RyaW5nO1xuICAgIGdpdGh1YjogU3RyaW5nO1xuICAgIGltYWdlOiBTdHJpbmc7XG4gICAgXG4gICAgY29uc3RydWN0b3IgKHByb2plY3RJZDogc3RyaW5nLCBuYW1lOiBzdHJpbmcsIGRlc2NyaXB0aW9uOiBzdHJpbmcsIHRlY2hub2xvZ2llczogc3RyaW5nLCBnaXRodWI6IHN0cmluZywgaW1hZ2U6IHN0cmluZykge1xuICAgICAgICB0aGlzLnByb2plY3RJZCA9IHByb2plY3RJZDsgXG4gICAgICAgIHRoaXMubmFtZSA9IG5hbWU7XG4gICAgICAgIHRoaXMuZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbjtcbiAgICAgICAgdGhpcy50ZWNobm9sb2dpZXMgPSB0ZWNobm9sb2dpZXM7XG4gICAgICAgIHRoaXMuZ2l0aHViID0gZ2l0aHViO1xuICAgICAgICB0aGlzLmltYWdlID0gaW1hZ2U7IFxuICAgIH1cbn1cblxuXG5cbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
