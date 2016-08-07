@@ -5,6 +5,9 @@ import {ROUTER_DIRECTIVES} from "@angular/router";
 import {ProjectsComponent} from "./projects.component";
 import {HeaderComponent} from "./header.component"; 
 import {HomeComponent} from "./home.component"; 
+import {AboutComponent} from "./about.component"; 
+import {EducationComponent} from "./education.component"; 
+import {WorkComponent} from "./work.component"; 
 // import {FooterComponent} from "./footer.component"; 
 
 @Component({

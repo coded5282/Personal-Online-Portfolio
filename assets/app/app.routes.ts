@@ -4,7 +4,10 @@ import {ProjectsComponent} from "./projects.component";
 
 import {provideRouter, RouterConfig } from "@angular/router"; 
 
-import {HomeComponent} from "./home.component"; 
+import {HomeComponent} from "./home.component";
+import {AboutComponent} from "./about.component"; 
+import {EducationComponent} from "./education.component"; 
+import {WorkComponent} from "./work.component"; 
 
 const routes: RouterConfig = [
   {
@@ -14,6 +17,18 @@ const routes: RouterConfig = [
   {
     path: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
+  },
+  {
+    path: 'education',
+    component: EducationComponent
+  },
+  {
+    path: 'work',
+    component: WorkComponent
   },
   {
     path: '',
