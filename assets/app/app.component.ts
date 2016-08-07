@@ -4,17 +4,18 @@ import { AlertComponent } from 'ng2-bootstrap/ng2-bootstrap';
 import {ROUTER_DIRECTIVES} from "@angular/router"; 
 import {ProjectsComponent} from "./projects.component";
 import {HeaderComponent} from "./header.component"; 
-
+import {HomeComponent} from "./home.component"; 
+// import {FooterComponent} from "./footer.component"; 
 
 @Component({
     moduleId: module.id,
     selector: 'my-app',
     template:`
+        <my-header></my-header>
         <div class="container">
-            <my-header></my-header>
             <router-outlet></router-outlet>
         </div>`,
-    directives: [AlertComponent, ROUTER_DIRECTIVES, HeaderComponent]
+    directives: [ROUTER_DIRECTIVES, HeaderComponent /*FooterComponent*/]
 })
 
 export class AppComponent {

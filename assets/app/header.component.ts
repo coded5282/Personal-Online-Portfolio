@@ -4,13 +4,27 @@ import {ROUTER_DIRECTIVES} from "@angular/router";
 @Component({
     selector: 'my-header',
     template: `
-        <header class="row">
-            <nav class="col-md-8 col-md-offset-2">
-                <ul class="nav nav-pills">
-                    <li><a href="#" [routerLink]="['/projects']">Projects</a></li>
-                </ul>
-            </nav>
-        </header>
+        <html>
+            <head>
+                <title>Edward Chen</title>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            </head>
+            <body>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#" [routerLink]="['/home']">Edward Chen</a>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="/login">About</a></li>
+                                <li><a href="/register">Education</a></li>
+                                <li><a href="#" [routerLink]="['/projects']">Projects</a></li>
+                                <li><a href="/logout">Work</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
     `,
     directives: [ROUTER_DIRECTIVES],
     styles: [`
