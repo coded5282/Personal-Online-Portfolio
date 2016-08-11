@@ -4,21 +4,25 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="well">
-        <p>John</p>
-        <img src="" class="img-circle" height="55" width="55" alt="Avatar">
-      </div>
-    </div>
-    <div class="col-sm-9">
-      <my-project *ngFor="let project of projects" [project]="project"></my-project>            
+<!--<div class="container">-->
+<!--  <div class="row">-->
+    <!--<div class="col-sm-3">-->
+    <!--  <div class="well">-->
+    <!--    <p>John</p>-->
+    <!--    <img src="" class="img-circle" height="55" width="55" alt="Avatar">-->
+    <!--  </div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-9">-->
+<!--      <my-project *ngFor="let project of projects" [project]="project"></my-project>            -->
       <!--<div class="panel panel-info">-->
       <!--  <div class="panel-heading">BLACK FRIDAY DEAL</div>-->
       <!--  <div class="panel-body">TEST TEST</div>-->
       <!--  <div class="panel-footer">Buy 50 mobiles and get a gift card</div>-->
       <!--</div>-->
-    </div>
-  </div>
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="container">
+  <my-project *ngFor="let project of projects" [project]="project"></my-project>
 </div>
