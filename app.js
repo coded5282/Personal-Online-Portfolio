@@ -77,5 +77,13 @@ app.use(function (err, req, res, next) {
     });
 });
 
+Project.create({
+    name: "test_name",
+    description: "test_desc",
+    technologies: "test_tech",
+    github: "test_git",
+    image: "test_img"
+})
+
 
 module.exports = app;

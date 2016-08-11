@@ -12,12 +12,16 @@ var Project = require("../models/project.js");
 router.get("/", function(req, res) {
     // Get all campgrounds from DB
     Project.find({}, function(err, allProjects) {
-       if (err) {
+        if (err) {
            console.log(err);
-       } else {
+        } else {
             // res.render("projects/index", {projects:allProjects}); 
-            res.json(allProjects); 
-       }
+            res.status(200).json({
+                message: 'Success',
+                obj: allProjects 
+            });
+            //res.json(allProjects); 
+        }
     });
 });
 

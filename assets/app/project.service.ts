@@ -27,35 +27,46 @@ export class ProjectService {
                 };
                 return objs; 
             })
-            .catch(error => Observable.throw(error.json())); 
+            //.catch(error => Observable.throw(error.json())); 
     }  
     
-    createProject(project: Project) {
-        const body = JSON.stringify(project);
-        const headers = new Headers({'Content-Type': 'application/json'});
-        return this._http.post('https://webdevmean-coded5282.c9users.io/projects', body, {headers: headers})
-            .map(response => {
-                const data = response.json().obj;
-                let project = new Project(data.projectId, data.name, data.description, data.technologies, data.github, data.image);
-                return project;
-            })
-            .catch(error => Observable.throw(error.json())); 
-    }
+    // createProject(project: Project) {
+    //     const body = JSON.stringify(project);
+    //     const headers = new Headers({'Content-Type': 'application/json'});
+    //     return this._http.post('https://webdevmean-coded5282.c9users.io/projects', body, {headers: headers})
+    //         .map(response => {
+    //             const data = response.json().obj;
+    //             let project = new Project(data.projectId, data.name, data.description, data.technologies, data.github, data.image);
+    //             return project;
+    //         })
+    //         //.catch(error => Observable.throw(error.json())); 
+    // }
     
-    getProject() {
+    // getProject() {
         
-    }
+    // }
     
-    updateProject() {
+    // updateProject() {
         
-    }
+    // }
     
-    deleteProject(project: Project) {
-        this.projects.splice(this.projects.indexOf(project), 1);
-        return this._http.delete('https://webdevmean-coded5282.c9users.io/project/' + project.projectId)
-            .map(response => response.json())
-            .catch(error => Observable.throw(error.json()));
-    }
+    // deleteProject(project: Project) {
+    //     this.projects.splice(this.projects.indexOf(project), 1);
+    //     return this._http.delete('https://webdevmean-coded5282.c9users.io/project/' + project.projectId)
+    //         .map(response => response.json())
+    //         //.catch(error => Observable.throw(error.json()));
+    // }
+
+
+
+
+
+
+
+
+
+
+
 
     
 //     updateMessage(message: Message) {
