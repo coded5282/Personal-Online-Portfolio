@@ -1,15 +1,10 @@
 import {Component} from "@angular/core";
 
 @Component({
-    selector: 'my-home',
-    template: `
-        <div class="row spacing">
-            <p>HELLO THIS IS EDUCATION COMPONENT</p> 
-        </div>
-        <div class="row spacing">
-            
-        </div>
-    `
+    moduleId: module.id,
+    selector: 'my-education',
+    styleUrls: ['/stylesheets/style.css', '/stylesheets/bootstrap.min.css', '/stylesheets/one-page-wonder.css'],
+    templateUrl: 'education.component.html'
 })
 
 export class EducationComponent {
