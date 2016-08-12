@@ -1,8 +1,17 @@
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>Projects</h1>
+<div class="container">
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Projects</h1>
+    </div>
   </div>
+    <my-project *ngFor="let project of projects" [project]="project"></my-project>
 </div>
+
+<!--<div class="jumbotron">-->
+<!--  <div class="container text-center">-->
+<!--    <h1>Projects</h1>-->
+<!--  </div>-->
+<!--</div>-->
 
 <!--<div class="container">-->
 <!--  <div class="row">-->
@@ -23,6 +32,6 @@
 <!--  </div>-->
 <!--</div>-->
 
-<div class="container">
-  <my-project *ngFor="let project of projects" [project]="project"></my-project>
-</div>
+<!--<div class="container">-->
+<!--  <my-project *ngFor="let project of projects" [project]="project"></my-project>-->
+<!--</div>-->
