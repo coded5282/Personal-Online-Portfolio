@@ -6,12 +6,11 @@ import {Project} from "./project";
 @Component({
     selector: 'my-project',
     template: `
-        <div class="col-sm-3">
-            <div id="project_display">
-                <p>{{ project.name }}</p>
-                <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-        </div> 
+        <div class="panel panel-info">
+            <div class="panel-heading">{{ project.name }}</div>
+            <div class="panel-body">{{ project.description }}</div>
+            <div class="panel-footer">{{ project.technologies }}</div>
+        </div>
     `,
     styles: [`
         .author {
