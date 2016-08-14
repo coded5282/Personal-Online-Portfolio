@@ -16,8 +16,21 @@ export class ProjectService {
     
     constructor (private _http: Http) {}
     
+    // getAllProjects() {
+    //     return this._http.get('https://webdevmean-coded5282.c9users.io/projects')
+    //         .map(response => {
+    //             const data = response.json().obj;
+    //             let objs: any[] = [];
+    //             for (let i = 0; i < data.length; i++) {
+    //                 let project = new Project(data[i].projectId, data[i].name, data[i].description, data[i].technologies, data[i].github, data[i].image);
+    //                 objs.push(project);
+    //             };
+    //             return objs; 
+    //         })
+    // }  
+    
     getAllProjects() {
-        return this._http.get('https://webdevmean-coded5282.c9users.io/projects')
+        return this._http.get('https://enigmatic-beach-87249.herokuapp.com/projects')
             .map(response => {
                 const data = response.json().obj;
                 let objs: any[] = [];
@@ -27,7 +40,6 @@ export class ProjectService {
                 };
                 return objs; 
             })
-            //.catch(error => Observable.throw(error.json())); 
     }  
     
     // createProject(project: Project) {
