@@ -77,13 +77,103 @@ app.use(function (err, req, res, next) {
     });
 });
 
-Project.create({
-    name: "test_name",
-    description: "test_desc",
-    technologies: "test_tech",
-    github: "test_git",
-    image: "test_img"
-})
+// Project.create({
+//     name: "Personal Online Portfolio -- link",
+//     description: "Learn more about me here!",
+//     technologies: "MongoDB, Mongoose.js, Express.js, Angular.js, Node.js",
+//     github: "https://github.com/coded5282/Personal-Online-Portfolio",
+//     image: "test_img"
+// });
+
+// Project.create({
+//     name: "Camp Center -- powerful-atoll-57963.herokuapp.com",
+//     description: "Explore all the possibilities of camping with this website I built!",
+//     technologies: "MongoDB, Mongoose.js, Express.js, Node.js",
+//     github: "https://github.com/coded5282/Camp-Center",
+//     image: "test_img"
+// });
+
+// Project.create({
+//     name: "Basic Social Network",
+//     description: "Simple application I built to dive deeper into the MEAN stack",
+//     technologies: "MongoDB, Mongoose.js, Express.js, Angular.js, Node.js",
+//     github: "https://github.com/coded5282/Social-Network",
+//     image: "test_img"
+// });
+
+// Project.create({
+//     name: "Personal Blog",
+//     description: "Personal blog I created to demonstrate my understanding of RESTful routing!",
+//     technologies: "Node.js, Express.js, Mongoose.js, MongoDB, SemanticUI",
+//     github: "https://github.com/coded5282/REST-Blog",
+//     image: "test_img"
+// });
+
+// Project.create({
+//     name: "Tapsing! -- https://coded5282.github.io/Tapsing/",
+//     description: "Become a DJ and start mashing keys!",
+//     technologies: "Javascript, Howler.js, Paper.js",
+//     github: "https://github.com/coded5282/Tapsing",
+//     image: "test_img"
+// });
+
+// Project.create({
+//     name: "What To Do Today? -- https://coded5282.github.io/Todo-App/",
+//     description: "Never forget important tasks with this app I made while trying to improve my CSS skills",
+//     technologies: "Javascript, HTML, CSS",
+//     github: "https://github.com/coded5282/Todo-App",
+//     image: "test_img"
+// });
+
+// Project.create({
+//     name: "RGB Guessing Game -- https://coded5282.github.io/RGB-Guessing-Game/",
+//     description: "Test your RGB colors knowledge with this game I made during the summer!",
+//     technologies: "Javascript, HTML, CSS",
+//     github: "https://github.com/coded5282/RGB-Guessing-Game",
+//     image: "test_img"
+// });
+
+// Project.create({
+//     name: "Text Analyzer",
+//     description: "A semester-long project I completed that provides analyses and encryption/decryption options on text files",
+//     technologies: "C++, Eclipse",
+//     github: "https://github.com/coded5282/Text-Analysis-Project",
+//     image: "test_img"
+// });
+
+// Project.create({
+//     name: "Go Fish Card Game",
+//     description: "A game I made for an introductory programming class",
+//     technologies: "C++, Eclipse",
+//     github: "https://github.com/coded5282/Go-Fish-Game",
+//     image: "test_img"
+// });
+
+// Project.create({
+//     name: "Weather Forecast Application -- http://coded5282.github.io/Weather-Forecast-App/",
+//     description: "Simple Single-Page-Application (SPA) I built while self-learning AngularJS",
+//     technologies: "HTML, CSS, AngularJS, OpenWeatherMap API",
+//     github: "https://github.com/coded5282/Weather-Forecast-App",
+//     image: "test_img"
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 module.exports = app;

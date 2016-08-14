@@ -17,7 +17,7 @@ import {ROUTER_DIRECTIVES} from "@angular/router";
                         </div>
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#" [routerLink]="['/about']">About</a></li>
+                                
                                 <li><a href="#" [routerLink]="['/education']">Education</a></li>
                                 <li><a href="#" [routerLink]="['/projects']">Projects</a></li>
                                 <li><a href="#" [routerLink]="['/work']">Work</a></li>

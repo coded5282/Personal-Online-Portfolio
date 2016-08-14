@@ -7,8 +7,11 @@ import {Project} from "./project";
     selector: 'my-project',
     template: `
         <div class="panel panel-info">
-            <div class="panel-heading">{{ project.name }}</div>
-            <div class="panel-body">{{ project.description }}</div>
+            <div class="panel-heading"><strong>{{ project.name }}</strong></div>
+            <div class="panel-body">
+                <p>{{ project.description }}</p>
+                <p><strong>Github:</strong> {{ project.github }}</p>
+            </div>
             <div class="panel-footer">{{ project.technologies }}</div>
         </div>
     `,
