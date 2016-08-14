@@ -30,7 +30,7 @@ export class ProjectService {
     // }  
     
     getAllProjects() {
-        return this._http.get('https://enigmatic-beach-87249.herokuapp.com/#/projects')
+        return this._http.get('https://enigmatic-beach-87249.herokuapp.com/projects')
             .map(response => {
                 const data = response.json().obj;
                 let objs: any[] = [];
