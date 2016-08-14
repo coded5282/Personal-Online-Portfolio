@@ -18,10 +18,13 @@ var projectRoutes = require("./routes/projects");
 
 var app = express();
 
-var url = process.env.DATABASEURL || "mongodb://localhost/portfolio"; 
+// var url = process.env.DATABASEURL || "mongodb://localhost/portfolio"; 
+// mongoose.connect(url); // environment variable for database url 
+
 // mongoose.connect("mongodb://localhost/yelp_camp"); 
-mongoose.connect(url); // environment variable for database url 
-// mongoose.connect("mongodb://ed:mongoed123@ds023634.mlab.com:23634/yelpcamp"); // connecting to mongolabs 
+// mongoose.connect("mongodb://ed:mongoed123@ds023634.mlab.com:23634/yelpcamp"); // connecting to mongolabs
+mongoose.connect("mongodb://edchen:mongochen123@ds153715.mlab.com:53715/portfolio");  
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
